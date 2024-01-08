@@ -15,38 +15,43 @@
 
 }
 
-.banner {
+#banner {
     background-size: cover;
     background-image: url("../resources/Banner\ Image.png");
     width: 82.5%;
     margin: 41px auto 0;
     max-width: 1320px;
     height: 492px;
+
+}
+
+#banner .b-text {
     text-align: center;
     font-family: 'Merriweather', serif;
 }
 
-.banner h4 {
+#banner .b-text h4 {
     font-size: 27px;
-
     color: #fff;
-    margin-bottom: 0px;
-
-
+    font-weight: 400px;
+    width: 230px;
+    height: 30px;
 }
 
-.banner h1 {
-    width: 518px;
+#banner .b-text h1 {
     color: #fff;
     font-size: 60px;
-
+    width: 590px;
+    height: 160px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
 
 /* ...  */
 
 .new-year-offer {
-    margin-top: 60px;
+    margin-top: 98px;
 }
 
 .new-year-offer .offer-text .first {
@@ -64,6 +69,7 @@
     font-size: 20px;
     line-height: normal;
     font-family: 'Inter', sans-serif;
+    margin-bottom: 0px;
 }
 
 .new-year-offer .offer-text .second {
@@ -72,6 +78,7 @@
     font-size: 40px;
     line-height: normal;
     font-family: 'Inter', sans-serif;
+    margin-top: 14px;
 }
 
 .new-year-offer .offer-picture {
@@ -126,7 +133,7 @@
     margin-right: 98px;
 }
 
-button {
+.button1 {
     color: #fff;
     text-align: center;
     font-size: 16px;
@@ -134,7 +141,7 @@ button {
 }
 
 /* party center  */
-nav {
+.nav1 {
     background-color: rgb(247, 237, 237);
     width: 82.5%;
     margin: 103px auto 0;
@@ -144,12 +151,12 @@ nav {
 
 }
 
-nav #party-center {
+.nav1 #party-center {
     text-align: center;
     padding: 82px;
 }
 
-button {
+.button2 {
     margin-top: 50px;
     background: #f00;
     border-radius: 8px;
@@ -163,7 +170,7 @@ button {
 .gifts-container {
     width: 82.5%;
     max-width: 1320px;
-    height: 6014px;
+    height: auto;
     margin: 103px auto 0;
     background: #fff;
 }
@@ -172,41 +179,137 @@ button {
     padding-top: 0;
     padding-left: 0;
 }
-.gifts-container .gift-header #g-h5{
+
+.gifts-container .gift-header #g-h5 {
     color: #f00;
     font-size: 20px;
     line-height: normal;
     font-family: 'Inter', sans-serif;
     margin-bottom: 0;
 }
-.gifts-container .gift-header #g-h1{
+
+.gifts-container .gift-header #g-h1 {
     color: #070211;
     font-size: 40px;
     line-height: normal;
     font-family: 'Merriweather', serif;
     margin-top: 13px;
 }
-.gifts-container .gift-header #g-par{
-    color:  rgba(7, 2, 17, 0.60);
+
+.gifts-container .gift-header #g-par {
+    color: rgba(7, 2, 17, 0.60);
     font-size: 16px;
     line-height: normal;
     font-family: 'Inter', sans-serif;
     margin-top: 18px;
     width: 735px;
 }
+
 .gifts-container .gift-header #g-par {
     padding-top: 0;
     padding-left: 0;
 }
 
+/* gift img  */
 .gifts-container .gift-pho-container {
-    display: flex;
+    margin-right: 18px;
 
-    row-gap: 20px;
 }
-.gifts-container .gift-pho-container .img1{
+
+.gifts-container .gift-pho-container .img1 {
     column-gap: 20px;
+    display: flex;
+    margin-top: 40px;
 }
-.gifts-container .gift-pho-container .img2{
+
+.gifts-container .gift-pho-container .img2 {
     column-gap: 20px;
+    display: flex;
+    margin-top: 18px;
+}
+
+.gifts-container .gift-pho-container .img1 .photo-display {
+    width: 348px;
+    height: 369px;
+}
+
+.gifts-container .gift-pho-container .img2 .photo-display {
+    width: 348px;
+    height: 369px;
+
+}
+
+/* subscribe  */
+.subscribe {
+    background: rgba(255, 0, 0, 0.05);
+    width: 82.5%;
+    height: 505px;
+    margin: 98px auto 0;
+}
+
+.s-container {
+    text-align: center;
+}
+
+.subscribe .s-container #mail-pic {
+    width: 123px;
+    height: 123px;
+    margin-top: 65px;
+}
+
+.subscribe .s-container h1 {
+    margin-top: 33px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+
+}
+
+.subscribe .s-container #s-par {
+    margin: 18px 174px 164px;
+    width: 735px;
+    line-height: 26px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.subscribe .s-container .e {
+    margin-top: 0px;
+    width: 531px;
+    height: 60px;
+    border-radius: 40px;
+    background: #fff;
+}
+
+/* footer  */
+.f-container {
+    width: 100%;
+    max-width: 1600px;
+    height: 609px;
+    margin-top: 98px;
+    background: #070211;
+}
+
+.f-container .f-text{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-style: solid;
+    border: 3px;
+    border-color: rgb(209, 209, 216);
+}
+.f-container .f-text .f1{
+    margin-top: 98px;
+    margin-left: 114px;
+}
+.f-container .f-text .phone .f2{
+    margin-top: 98px;
+    margin-right: 239px;
+}
+.f-container .f-text .phone .f3{
+    margin-top: 0px;
+    margin-right: 225.5px;
 }
