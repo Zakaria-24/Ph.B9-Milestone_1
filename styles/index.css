@@ -22,25 +22,27 @@
     margin: 41px auto 0;
     max-width: 1320px;
     height: 492px;
-}
-
-.banner-text {
-    color: #fff;
     text-align: center;
-}
-
-.banner .banner-text h4 {
-    font-size: 27px;
-    font-family: 'Inter', sans-serif;
-
-}
-
-.banner .banner-text h1 {
-    width: 518px;
-    font-size: 60px;
-    margin: 150px auto 145px;
     font-family: 'Merriweather', serif;
 }
+.banner h4 {
+    font-size: 27px;
+
+    color: #fff;
+    margin-bottom: 0px;
+
+
+}
+
+.banner h1 {
+    width: 518px;
+    color: #fff;
+    font-size: 60px;
+
+}
+
+
+/* ...  */
 
 .new-year-offer {
     margin-top: 60px;
@@ -120,4 +122,26 @@ button{
     text-align: center;
     font-size: 16px;
     font-family: Inter;
+}
+nav{
+    background-color: rgb(247, 237, 237);
+    width: 82.5%;
+    margin: 41px auto 0;
+    max-width: 1320px;
+    height: 395px;
+    flex-shrink: 0;
+
+}
+nav p{
+    text-align: center;
+    padding: 82px;
+}
+button{
+    margin-top: 50px;
+    background: #f00;
+    border-radius: 8px;
+    padding: 13px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
 }
