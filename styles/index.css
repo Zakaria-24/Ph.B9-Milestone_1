@@ -23,28 +23,27 @@
     max-width: 1320px;
     height: 492px;
 
-}
-
-#banner .b-text {
     text-align: center;
     font-family: 'Merriweather', serif;
+    color: #fff;
+
 }
 
-#banner .b-text h4 {
+#banner h4{
     font-size: 27px;
-    color: #fff;
     font-weight: 400px;
     width: 230px;
     height: 30px;
+    padding: 145px 435px 314px;
 }
 
-#banner .b-text h1 {
-    color: #fff;
+#banner #h-h4{
     font-size: 60px;
     width: 590px;
     height: 160px;
-    text-align: center;
-    font-family: 'Merriweather', serif;
+    font-size: 60px;
+    line-height: 78px;
+    padding: 191px 282px 145px;
 }
 
 
@@ -266,7 +265,7 @@
 }
 
 .subscribe .s-container #s-par {
-    margin: 18px 174px 164px;
+    margin: 18px 174px 40px;
     width: 735px;
     line-height: 26px;
     color: rgba(7, 2, 17, 0.60);
@@ -274,13 +273,34 @@
     font-family: 'Inter', sans-serif;
 }
 
-.subscribe .s-container .e {
-    margin-top: 0px;
+.subscribe .s-container #s-e {
     width: 531px;
     height: 60px;
-    border-radius: 40px;
+    border: none;
+    border-radius: 40px 0px 0px 40px;
     background: #fff;
+
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: 'Inter', sans-serif;
 }
+
+.subscribe .s-container #s-b {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    width: 172px;
+    height: 60px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #fff;
+    padding: 20px 46px;
+    text-transform: capitalize;
+}
+
 
 /* footer  */
 .f-container {
@@ -291,7 +311,7 @@
     background: #070211;
 }
 
-.f-container .f-text{
+.f-container .f-text {
     display: flex;
     text-align: center;
     justify-content: space-between;
@@ -301,15 +321,40 @@
     border: 3px;
     border-color: rgb(209, 209, 216);
 }
-.f-container .f-text .f1{
+
+.f-container .f-text .f1 {
     margin-top: 98px;
     margin-left: 114px;
 }
-.f-container .f-text .phone .f2{
+
+.f-container .f-text .phone .f2 {
     margin-top: 98px;
     margin-right: 239px;
 }
-.f-container .f-text .phone .f3{
+
+.f-container .f-text .phone .f3 {
     margin-top: 0px;
     margin-right: 225.5px;
+}
+
+.f-container .f-img hr {
+    margin: 40px 114px;
+    color: none;
+
+}
+
+.f-container .f-img {
+    text-align: center;
+}
+
+.f-container .f-c-r {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 114px 98px;
+
+    color: #fff;
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
 }
