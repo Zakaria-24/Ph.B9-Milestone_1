@@ -1,18 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Open+Sans:wght@400;800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:wght@900&family=Open+Sans:wght@400;800&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Merriweather:wght@700;900&display=swap');
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+*{
     border-radius: 16px;
     font-style: normal;
-
 }
 
-*p {
-    color: rgba(red, green, blue, alpha);
-    font-style: normal;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-
+p{
+    color: rgba(7, 2, 17, 0.60); 
 }
 
 #banner {
@@ -36,12 +31,10 @@
     height: 30px;
     padding: 145px 435px 314px;
 }
-
-#banner #h-h4{
+#banner .h-h4{
     font-size: 60px;
     width: 590px;
     height: 160px;
-    font-size: 60px;
     line-height: 78px;
     padding: 191px 282px 145px;
 }
@@ -164,8 +157,66 @@
     align-items: center;
     gap: 8px;
 }
+/* gift coming soon  */
+.coming-soon{
 
-/* gift-box section  */
+    display: flex;
+    background: #fff;
+    margin: 98px 114px;
+}
+.coming-soon .c-s-1{
+    margin-top: 85px;
+    margin-left: 0;
+}
+.coming-soon .c-s-1 h5{
+color: #F00;
+font-size: 20px;
+line-height: normal;
+font-family: 'Inter', sans-serif;
+}
+.coming-soon .c-s-1 h2{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 40px;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 13px;
+}
+.coming-soon .c-s-1 p{
+    margin-top: 18px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.coming-soon .c-s-2{
+    margin-top: 40px auto;
+    border: 12px solid #F00;
+    border-radius: 298.5px;
+    padding: 70px;
+}
+.coming-soon .c-s-3{
+    margin-top: 92px;
+    margin-left: 97px;
+}
+.coming-soon .c-s-3 h1{
+    color: #F00;
+    font-size: 40px;
+    line-height: normal;
+    font-family: 'Inter', sans-serif;
+}
+.coming-soon .c-s-3 p{
+    margin-top: 13px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+}
+.coming-soon .c-s-3 .c-s-i-2{
+    margin-top: 35px;
+    width: 114px;
+    height: 114px;
+}
+
+/* gift-photo section  */
 .gifts-container {
     width: 82.5%;
     max-width: 1320px;
